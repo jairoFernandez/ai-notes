@@ -6,14 +6,15 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'AI notes',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/jairoFernandez/ai-notes' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Neural Network',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Ejemplo sencillo', slug: 'neural-network' },
+						{ label: 'Función sigmoide', slug: 'neural-network/sigmoid-function' },
 					],
 				},
 				{
