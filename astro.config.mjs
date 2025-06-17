@@ -14,7 +14,14 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Ejemplo sencillo', slug: 'neural-network' },
+						{ label: 'Red neuronal con n capas', slug: 'neural-network/2-layer-neural' },
+					],
+				},
+				{
+					label: 'Conceptos',
+					items: [
 						{ label: 'Función sigmoide', slug: 'neural-network/sigmoid-function' },
+						{ label: 'Producto punto', slug: 'neural-network/producto-punto' },
 					],
 				},
 				{
